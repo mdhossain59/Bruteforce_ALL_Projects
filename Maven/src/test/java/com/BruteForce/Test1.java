@@ -27,9 +27,11 @@ public class Test1 {
 	  webelement.click(); 
 	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
   }
-  @Test(priority=1)
+  @Test()
   public void testcase2() {
+	  
 	  driver.findElement(By.xpath("//a[@class='login']")).click();
+	  driver.findElement(By.xpath("//h3[contains(text(),'Create an account')]")).isDisplayed();
 	  driver.findElement(By.xpath("//input[@id='email_create']")).sendKeys("rabbani@rabbani.com");
 	  WebElement webelement = driver.findElement(By.xpath("//form[@id='create-account_form']"));
 	  webelement.click(); 
