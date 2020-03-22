@@ -10,16 +10,16 @@ public class Create_Account_Page {
 @FindBy(xpath="//input[@id='id_gender1']")
 WebElement chooseGender;
 
-@FindBy(xpath="//input[@id= 'customer_firstname']")
+@FindBy(xpath="//input[@id='customer_firstname']")
 WebElement firstName;
 
-@FindBy(xpath="//input[@id= 'customer_lastname']")
+@FindBy(xpath="//input[@id='customer_lastname']")
 WebElement lastName;
 
-@FindBy(xpath="//input[@id= 'passwd']")
+@FindBy(xpath="//input[@id='passwd']")
 WebElement password;
 
-@FindBy(xpath="//select[@id= 'days']")
+@FindBy(xpath="//select[@id='days']")
 WebElement days;
 @FindBy(xpath="//select[@id= 'months']")
 WebElement months;

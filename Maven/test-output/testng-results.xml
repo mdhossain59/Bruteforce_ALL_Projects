@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-06-19T12:43:34 EDT" name="Default suite" finished-at="2019-06-19T12:44:32 EDT" duration-ms="58191">
+  <suite started-at="2019-09-12T09:51:38 EDT" name="Default suite" finished-at="2019-09-12T09:52:50 EDT" duration-ms="72001">
     <groups>
     </groups>
-    <test started-at="2019-06-19T12:43:34 EDT" name="Default test" finished-at="2019-06-19T12:44:32 EDT" duration-ms="58191">
+    <test started-at="2019-09-12T09:51:38 EDT" name="Default test" finished-at="2019-09-12T09:52:50 EDT" duration-ms="72001">
       <class name="com.BruteForce.Test1">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.BruteForce.Test1@544fa968]" started-at="2019-06-19T12:43:34 EDT" name="beforeClass" finished-at="2019-06-19T12:43:51 EDT" duration-ms="16868" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.BruteForce.Test1@544fa968]" started-at="2019-09-12T09:51:38 EDT" name="beforeClass" finished-at="2019-09-12T09:51:58 EDT" duration-ms="20448" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="f()[pri:0, instance:com.BruteForce.Test1@544fa968]" started-at="2019-06-19T12:43:51 EDT" name="f" finished-at="2019-06-19T12:43:54 EDT" duration-ms="3156" status="PASS">
+        <test-method signature="f()[pri:0, instance:com.BruteForce.Test1@544fa968]" started-at="2019-09-12T09:51:58 EDT" name="f" finished-at="2019-09-12T09:52:01 EDT" duration-ms="2513" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method signature="testcase3()[pri:0, instance:com.BruteForce.Test1@544fa968]" started-at="2019-06-19T12:43:54 EDT" name="testcase3" finished-at="2019-06-19T12:44:06 EDT" duration-ms="12272" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testcase3 -->
-        <test-method signature="testcase4()[pri:0, instance:com.BruteForce.Test1@544fa968]" started-at="2019-06-19T12:44:06 EDT" name="testcase4" finished-at="2019-06-19T12:44:09 EDT" duration-ms="2968" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testcase4 -->
-        <test-method signature="testcase5()[pri:0, instance:com.BruteForce.Test1@544fa968]" started-at="2019-06-19T12:44:09 EDT" name="testcase5" finished-at="2019-06-19T12:44:29 EDT" duration-ms="20023" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testcase5 -->
-        <test-method signature="testcase2()[pri:1, instance:com.BruteForce.Test1@544fa968]" started-at="2019-06-19T12:44:29 EDT" name="testcase2" finished-at="2019-06-19T12:44:31 EDT" duration-ms="2291" status="PASS">
+        <test-method signature="testcase2()[pri:0, instance:com.BruteForce.Test1@544fa968]" started-at="2019-09-12T09:52:01 EDT" name="testcase2" finished-at="2019-09-12T09:52:03 EDT" duration-ms="2549" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase2 -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.BruteForce.Test1@544fa968]" started-at="2019-06-19T12:44:31 EDT" name="afterClass" finished-at="2019-06-19T12:44:32 EDT" duration-ms="541" status="PASS">
+        <test-method signature="testcase3()[pri:0, instance:com.BruteForce.Test1@544fa968]" started-at="2019-09-12T09:52:03 EDT" name="testcase3" finished-at="2019-09-12T09:52:26 EDT" duration-ms="22150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase3 -->
+        <test-method signature="testcase4()[pri:0, instance:com.BruteForce.Test1@544fa968]" started-at="2019-09-12T09:52:26 EDT" name="testcase4" finished-at="2019-09-12T09:52:29 EDT" duration-ms="3639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase4 -->
+        <test-method signature="testcase5()[pri:0, instance:com.BruteForce.Test1@544fa968]" started-at="2019-09-12T09:52:29 EDT" name="testcase5" finished-at="2019-09-12T09:52:49 EDT" duration-ms="20020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase5 -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.BruteForce.Test1@544fa968]" started-at="2019-09-12T09:52:49 EDT" name="afterClass" finished-at="2019-09-12T09:52:50 EDT" duration-ms="625" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Test.Bruteforce.Website_Test">
+      <class name="com.Test.Bruteforce.ExtentTestReport">
         <methods>
-          <include name="customerAccCreatePage"/>
-          <include name="openbrowser"/>
-          <include name="afterClass"/>
+          <include name="setUp"/>
+          <include name="tearDownTest"/>
+          <include name="setUp2"/>
+          <include name="test1"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.Test.Bruteforce.Website_Test -->
+      </class> <!-- com.Test.Bruteforce.ExtentTestReport -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
